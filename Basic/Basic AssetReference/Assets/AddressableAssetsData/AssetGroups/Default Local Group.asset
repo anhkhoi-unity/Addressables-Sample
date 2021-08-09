@@ -21,8 +21,8 @@ MonoBehaviour:
     m_Address: Assets/Materials/blue.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+    m_MainAsset: {fileID: 2100000, guid: 3413b1b4dfaa52d438f25dbf3dc63f3c, type: 2}
+    m_TargetAsset: {fileID: 2100000, guid: 3413b1b4dfaa52d438f25dbf3dc63f3c, type: 2}
   - m_GUID: 88303c53aeb2dec4d8c386e8c0bfe237
     m_Address: Assets/Prefabs/Cube.prefab
     m_ReadOnly: 0
@@ -58,4 +58,3 @@ MonoBehaviour:
   m_SchemaSet:
     m_Schemas:
     - {fileID: 11400000, guid: c92956ebc8a734748b135edd2f96c92e, type: 2}
-    - {fileID: 11400000, guid: 2d4c9fc8b43d1764289fb2c54a244c1a, type: 2}
