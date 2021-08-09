@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Reflection.Emit;
 using UnityEditor;
 
-namespace CI.AtlasEarth.Client.Editor.Game
+namespace Log
 {
 	public static class AssetEnumBuilder 
 	{
