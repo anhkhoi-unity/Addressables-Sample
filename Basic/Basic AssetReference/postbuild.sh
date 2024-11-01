@@ -2,13 +2,13 @@
 
 echo "Running post build..."
 
-echo $UNITY_PLAYER_PATH_DATA
+echo "$WORKSPACE/.build/last/$BUILD_TARGET/extra_data/addrs"
 
 # Define the path where the addressables should be copied
-TARGET_DIR="$UNITY_PLAYER_PATH_DATA/extra_data/addrs"
+TARGET_DIR="$WORKSPACE/.build/last/$BUILD_TARGET/extra_data/addrs
 
 # Ensure the target directory exists
-mkdir -p "$TARGET_DIR"
+mkdir -p "$WORKSPACE/.build/last/$BUILD_TARGET/extra_data/addrs
 
 # Generate a test file (or replace with your actual addressables)
 echo "This is a test file for post-build addressables." > test_addressable.txt
