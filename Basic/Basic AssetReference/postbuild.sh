@@ -2,10 +2,10 @@
 
 echo "Running post build..."
 
-echo $UNITY_PLAYER_PATH
+echo $UNITY_PLAYER_PATH_DATA
 
 # Define the path where the addressables should be copied
-TARGET_DIR="$UNITY_PLAYER_PATH/extra_data/addrs"
+TARGET_DIR="$UNITY_PLAYER_PATH_DATA/extra_data/addrs"
 
 # Ensure the target directory exists
 mkdir -p "$TARGET_DIR"
